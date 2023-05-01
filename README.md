@@ -4,7 +4,7 @@
 In this capstone, we will predict if the Falcon 9 first stage will land successfully. SpaceX advertises Falcon 9 rocket launches on its website, with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because SpaceX can reuse the first stage. Therefore if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against SpaceX for a rocket launch.
 
 ### Data collection with Webscraping and Data wrangling
-In this lab, you will be performing web scraping to collect Falcon 9 historical launch records from a Wikipedia page titled `List of Falcon 9 and Falcon Heavy launches`
+In this lab, you will make a get request to the SpaceX API. You will also do some basic data wrangling and formating. You will be performing web scraping to collect Falcon 9 historical launch records from a Wikipedia page titled `List of Falcon 9 and Falcon Heavy launches`
 https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
 
 #### _Objectives_
@@ -13,6 +13,10 @@ https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
  * Create a Jupyter notebook and make it sharable using GitHub
  * Use data science methodologies to define and formulate a real-world business problem.
  * Use your data analysis tools to load a dataset, clean it, and find out interesting insights from it.
+
+For more details: 
+  * 001_jupyter_labs_spacex_data_collection_api.ipynb
+  * 002_jupyter_labs_spacex_webscraping.ipynb
 
 ### Exploratory Data Analysis (EDA)
 Make use a RESTful API  and web scraping. Convert the data into a dataframe and then perform some data wrangling.
