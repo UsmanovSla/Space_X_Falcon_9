@@ -19,36 +19,44 @@ For more details:
   * 002_jupyter_labs_spacex_webscraping.ipynb
 
 ### Exploratory Data Analysis (EDA)
-Make use a RESTful API  and web scraping. Convert the data into a dataframe and then perform some data wrangling.
+Make use a RESTful API and web scraping. Convert the data into a dataframe and then perform some data wrangling.
+
 #### _Objectives_
-Create scatter plots and bar charts by writing Python code to analyze data in a Pandas data frame
+ * Create scatter plots and bar charts by writing Python code to analyze data in a Pandas data frame
+ * Write Python code to conduct exploratory data analysis by manipulating data in a Pandas data frame
+ * Write and execute SQL queries to select and sort data
+ * Use your data visualization skills to visualize the data and extract meaningful patterns to guide the modeling process.
 
-Write Python code to conduct exploratory data analysis by manipulating data in a Pandas data frame
-
-Write and execute SQL queries to select and sort data
-
-Use your data visualization skills to visualize the data and extract meaningful patterns to guide the modeling process.
-
-### Interactive Visual Analytics and Dashboards
-Build a dashboard to analyze launch records interactively with Plotly Dash as well as build an interactive map to analyze the launch site proximity with Folium python Library.
-#### _Objectives_
-Build an interactive dashboard that contains pie charts and scatter plots to analyze data with the Plotly Dash Python library
-
-Calculate distances on an interactive map by writing Python code using the Folium library
-
-Generate interactive maps, plot coordinates, and mark clusters by writing Python code using the Folium library
-
-Build a dashboard to analyze launch records interactively with Plotly Dash.
-
-Build an interactive map to analyze the launch site proximity with Folium.
+For more details: 
+  * 003_jupyter_labs_spacex_data_wrangling.ipynb
+  * 004_jupyter_labs_EDA_sql_sqllite.ipynb
 
 ### Predictive Analysis(Classification)
 In this module, we'll use machine learning to determine if the first stage of Falcon 9 will land successfully. Data will be split into training data and test data to find the best Hyperparameter for SVM, Classification Trees, and Logistic Regression. Then find the method that performs best using test data.
+
 #### _Objectives_
-Split the data into training testing data.
+ * Split the data into training testing data.
+ * Train different classification models.
+ * Hyperparameter grid search.
+ * Use your machine learning skills to build a predictive model to help a business function more efficiently.
 
-Train different classification models.
+For more details: 
+  * 007_jupyter_labs_Machine_Learning_Prediction.ipynb
 
-Hyperparameter grid search.
+### Interactive Visual Analytics and Dashboards
+Build a dashboard to analyze launch records interactively with Plotly Dash as well as build an interactive map to analyze the launch site proximity with Folium python Library.
 
-Use your machine learning skills to build a predictive model to help a business function more efficiently.
+#### _Objectives_
+ * Build an interactive dashboard that contains pie charts and scatter plots to analyze data with the Plotly Dash Python library
+ * Calculate distances on an interactive map by writing Python code using the Folium library
+ * Generate interactive maps, plot coordinates, and mark clusters by writing Python code using the Folium library
+ * Build a dashboard to analyze launch records interactively with Plotly Dash.
+ * Build an interactive map to analyze the launch site proximity with Folium.
+ 
+For more details: 
+  * 005_jupyter_labs_EDA_dataviz.ipynb
+  * 006_jupyter_labs_launch_site_location.ipynb  
+  * 008_python_spacex_dash_app.py 
+  
+### Final Report
+  * CG_Data_Science_Capstone_Presentation.pdf 
